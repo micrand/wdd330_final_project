@@ -1,0 +1,24 @@
+{
+  "name": "wdd330_final_project",
+  "version": "1.0.0",
+  "description": "Hotel management and booking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micrand/wdd330_final_project.git"
+  },
+  "keywords": [
+    "hotel",
+    "api",
+    "management"
+  ],
+  "author": "mickael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micrand/wdd330_final_project/issues"
+  },
+  "homepage": "https://github.com/micrand/wdd330_final_project#readme"
+}
