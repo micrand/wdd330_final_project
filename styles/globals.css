@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #00BBF9;
+    --secondary-color: #00F5D4;
+    --tertiary-color: #FEE440;
+    --accent-color1: #F15BB5;
+    --accent-color2: #9B5DE5;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --dark-color: #3a0ca3;
+    --red-color: #FF2D5D;
+}
+
+
+.redColor {
+    color: var(--red-color);
+}
