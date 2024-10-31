@@ -1,6 +1,6 @@
 import HeroSlider from "../components/hero/HeroSlider";
 import { Slideshow } from "../components/explore/slideShow";
-import SearchBox from "../components/searchbox/SearchBox";
+import SearchBox from "../components/searchBox/searchBox";
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import { Nextrip } from "../components/explore/nextTrip";
 import ConnectWithtravellers from "../components/explore/connectTravellers";

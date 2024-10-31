@@ -1,6 +1,7 @@
 import { Slideshow } from "../components/explore/slideShow";
 import Navbar from "../components/navbar/HeaderNavbar";
-import SearchBox from "../components/searchbox/SearchBox";
+//import SearchBox from "../components/searchbox/SearchBox";
+import SearchBox from "../components/searchBox/searchBox";
 
 function flights() {
   const stay = [
