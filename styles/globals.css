@@ -1,16 +1,53 @@
 :root {
-    --primary-color: #00BBF9;
-    --secondary-color: #00F5D4;
-    --tertiary-color: #FEE440;
-    --accent-color1: #F15BB5;
-    --accent-color2: #9B5DE5;
-    --black-color: #000000;
-    --white-color: #FFFFFF;
-    --dark-color: #3a0ca3;
-    --red-color: #FF2D5D;
+  --primary-color: #00BBF9;
+  --secondary-color: #00F5D4;
+  --tertiary-color: #FEE440;
+  --accent-color1: #F15BB5;
+  --accent-color2: #9B5DE5;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --dark-color: #3a0ca3;
+  --red-color: #FF2D5D;
 }
 
+.BgSecondaryColor {
+  background-color: var(--secondary-color);
+}
 
 .redColor {
-    color: var(--red-color);
+  color: var(--red-color);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Nunito;
+}
+
+.image_icon {
+  color: rgb(236, 55, 0);
+  opacity: .5;
+}
+
+.image_icon:hover {
+  cursor: pointer;
+  font-size: 24.2px;
+}
+
+.date_picker{
+  width: 100%;
+  height: 100%;
+}
+
+.rs-picker-toggle{
+  height: 100%;
+}
+
+.authlinks {
+  width: 60px;
+  height: 40px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
 }

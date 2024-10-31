@@ -1,0 +1,11 @@
+.bgImg {
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/31/03/12/sea-7102124_1280.jpg");
+  /* width: 100%;
+    height: 900px; */
+  background-size: 100% 100%;
+}
+
+.textOnImg {
+  /* border: 2px solid greenyellow;   */
+  margin-top: 5%;
+}

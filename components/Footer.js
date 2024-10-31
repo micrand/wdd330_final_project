@@ -15,10 +15,7 @@ const Footer = () => {
                 </Box>
             </Box>
             
-            <Box bg='#00BBF9' w='100%' color='white'>
-                <Box  p="1rem" m="auto" w="10%" mb="0.5rem">
-                    <Button borderRadius="3px" colorScheme='none' m="auto" border="1px solid" fontSize="15px" fontWeight="300" >List your property</Button>
-                </Box>
+            <Box bg='#00BBF9' w='100%' color='white'>               
                 <Box w='100%' m="auto" p={2} borderTop="1px solid" justify="center">
                     <Grid templateColumns={{ base: "repeat(1, 1fr)",sm:"repeat(2, 1fr)",md:"repeat(3, 1fr)", lg: "repeat(5, 1fr)" }} cursor="pointer" fontWeight="600" w="80%" fontSize="14px" ml="4rem">                            
                         <Text>Top destinations</Text>
