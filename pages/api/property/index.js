@@ -1,5 +1,5 @@
 import { connect } from "../../../db.connect";
-import { PropertyModel } from "../../../models/property.model";
+import { PropertyModel } from "../../../stores/property.model";
 
 export default async function handler(req, res) {
   const { method } = req;

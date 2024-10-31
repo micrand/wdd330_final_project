@@ -24,7 +24,7 @@ import {
 import Link from "next/link";
 import Navbar from "../../../components/navbar/HeaderNavbar";
 import PreloaderScreen from "../../../components/preloader/Preloader";
-import { PropertyModel } from "../../../models/property.model";
+import { PropertyModel } from "../../../stores/property.model";
 import { connect } from "../../../db.connect";
   
   const HotelDetails = ({ data }) => {

@@ -22,12 +22,12 @@ import { MdOutlineRestaurant } from "react-icons/md";
 import { MdLocalAirport } from "react-icons/md";
 import { useRouter } from "next/router";
 import { FaSwimmingPool } from "react-icons/fa";
-import Navbar from "../../../components/navbarSection/navbar";
+import Navbar from "../../../components/navbar/HeaderNavbar";
 import { useContext, useEffect, useState } from "react";
 import { GuestContext } from "../../../context/GuestContext";
 import Link from "next/link";
 import LoadingScreen from "../../../components/preloader/Preloader";
-import { PropertyModel } from "../../../models/property.model";
+import { PropertyModel } from "../../../stores/property.model";
 import { connect } from "../../../db.connect";
 export default function Info({ data }) {
   const { date, adult, childrens, room } = useContext(GuestContext);
