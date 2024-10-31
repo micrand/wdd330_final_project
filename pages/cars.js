@@ -1,6 +1,6 @@
 import { Slideshow } from "../components/explore/slideShow";
 import Navbar from "../components/navbar/HeaderNavbar";
-import SearchBox from "../components/searchBox/SearchBox";
+import SearchBox from "../components/searchbox/SearchBox";
 
 function CarRentals() {
   const stay = [

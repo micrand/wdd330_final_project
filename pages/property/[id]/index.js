@@ -22,8 +22,8 @@ import {
   import SearchForm from "../../../components/SearchForm";
   import { useRouter } from "next/router";
 import Link from "next/link";
-import Navbar from "../../../components/navbarSection/navbar";
-import LoadingScreen from "../../../components/pre_loader/loadingScreen";
+import Navbar from "../../../components/navbar/HeaderNavbar";
+import PreloaderScreen from "../../../components/preloader/Preloader";
 import { PropertyModel } from "../../../models/property.model";
 import { connect } from "../../../db.connect";
   
@@ -217,38 +217,38 @@ import { connect } from "../../../db.connect";
             <Text mb="1.3rem">{data.TravelText2}</Text>
             <Text mb="1.3rem">
               {
-                "Placed in the heart of Goa’s Port City just 4 km away from Dabolim Airport, La-Paz Gardens Beacon Hotel - Vasco da Gama Goa provides well appointed rooms with free WiFi access. It also houses a spacious outdoor pool and sauna facilities."
+                "Bulgaria Hotel is perfectly located for both business and leisure guests in Burgas. Featuring a complete list of amenities, guests will find their stay at the property a comfortable one. 24-hour room service, casino, facilities for disabled guests, Wi-Fi in public areas, car park are on the list of things guests can enjoy. All rooms are designed and decorated to make guests feel right at home, and some rooms come with television LCD/plasma screen, bathroom phone, fireplace, towels, closet. Entertain the hotel's recreational facilities, including hot tub, fitness center, sauna, outdoor pool, indoor pool. A welcoming atmosphere and excellent service are what you can expect during your stay at Bulgaria Hotel."
               }
             </Text>
             <Text mb="1.3rem">
               {
-                "Rooms are furnished with air-conditioning, a seating area, a desk, a fan, a flat-screen TV with satellite channels and a minibar. Hot/cold shower facilities and free toiletries are included in an en suite bathroom."
+                "Holiday Inn Express London Greenwich is a popular choice amongst travelers in London, whether exploring or just passing through. The hotel has everything you need for a comfortable stay. Service-minded staff will welcome and guide you at the Holiday Inn Express London Greenwich. Guestrooms are fitted with all the amenities you need for a good night's sleep. In some of the rooms, guests can find television LCD/plasma screen, non smoking rooms, air conditioning, heating, desk. The hotel offers various recreational opportunities. Holiday Inn Express London Greenwich combines warm hospitality with a lovely ambiance to make your stay in London unforgettable."
               }
             </Text>
             <Text mb="1.3rem">
               {
-                "Enjoy a good workout at the fitness centre or indulge in a game of table tennis while a 24-hour front desk can assist with car rentals, laundry/ironing services, currency exchange and room service."
+                "Sheraton Grand Taipei Hotel is perfectly located for both business and leisure guests in Taipei. The property features a wide range of facilities to make your stay a pleasant experience. 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, gift/souvenir shop, grocery deliveries are just some of the facilities on offer. All rooms are designed and decorated to make guests feel right at home, and some rooms come with television LCD/plasma screen, bathroom phone, carpeting, complimentary instant coffee, complimentary tea. The hotel's peaceful atmosphere extends to its recreational facilities which include fitness center, sauna, outdoor pool, spa, massage. Sheraton Grand Taipei Hotel is an excellent choice from which to explore Taipei or to simply relax and rejuvenate."
               }
             </Text>
             <Text mb="1.3rem">
               {
-                "Couples particularly like the location — they rated it 8.0 for a two-person trip."
+                "Ideally located in the prime touristic area of Seinajoki, Cumulus Seinäjoki promises a relaxing and wonderful visit. The property features a wide range of facilities to make your stay a pleasant experience. 24-hour front desk, facilities for disabled guests, luggage storage, room service, meeting facilities are on the list of things guests can enjoy. Comfortable guestrooms ensure a good night's sleep with some rooms featuring facilities such as air conditioning, heating, desk, mini bar, telephone. The hotel offers various recreational opportunities. A welcoming atmosphere and excellent service are what you can expect during your stay at Cumulus Seinäjoki."
               }
             </Text>
   
             <Text fontSize="sm" fontWeight="700">
               {
-                "La-Paz Gardens Beacon Hotel - Vasco da Gama Goa has been welcoming Booking.com guests since 2 Jan 2013."
+                "Ideally located in the prime touristic area of Hildesheim City Center, Van der Valk Hotel Hildesheim promises a relaxing and wonderful visit. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. To be found at the hotel are free Wi-Fi in all rooms, 24-hour front desk, facilities for disabled guests, room service, meeting facilities. Designed for comfort, selected guestrooms offer air conditioning, heating, desk, mini bar, iPod docking station to ensure a restful night. Take a break from a long day and make use of fitness center, sauna, indoor pool, spa, massage. Convenience and comfort makes Van der Valk Hotel Hildesheim the perfect choice for your stay in Hildesheim."
               }
             </Text>
             <Text fontSize="md" fontWeight="700">
-              {"Most popular facilities"}
+              {"Popular facilities"}
             </Text>
             <Flex mt="1rem">
               <Text fontSize="sm" fontWeight="700">
                 {"ATM and Currency Exchange:"}
               </Text>
-              Need cash? There's an ATM machine and a currency exchange service at
+              Currency exchange service at
               this property.{" "}
             </Flex>
           </Box>
@@ -282,7 +282,7 @@ import { connect } from "../../../db.connect";
             </Box>
           </Box>
         </Flex>
-        <hr style={{ marginBottom: "1rem", borderColor: "black" }} />)  </>:( <LoadingScreen /> )
+        <hr style={{ marginBottom: "1rem", borderColor: "black" }} />)  </>:( <PreloaderScreen /> )
        
         }
       </Box>
